@@ -1,3 +1,7 @@
+---
+title: JavaScript 中 void 0 是什么
+---
+
 # JavaScript 中 void 0 是什么
 
 **void 是什么？**

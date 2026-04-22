@@ -1,3 +1,7 @@
+---
+title: JavaScript的继承机制
+---
+
 # JavaScript的继承机制
 
 ## 前言
