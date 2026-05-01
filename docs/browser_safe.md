@@ -1,5 +1,7 @@
 ---
 title: 浏览器的安全
+categories:
+  - frontend
 ---
 
 # 浏览器的安全

@@ -1,5 +1,7 @@
 ---
 title: 前端编程中的异常处理机制
+categories:
+  - frontend
 ---
 
 # 前端编程中的异常处理机制

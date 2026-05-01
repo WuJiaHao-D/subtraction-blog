@@ -1,5 +1,7 @@
 ---
 title: 前端依赖管理-npm 依赖管理机制
+categories:
+  - frontend
 ---
 
 # 前端依赖管理-npm 依赖管理机制

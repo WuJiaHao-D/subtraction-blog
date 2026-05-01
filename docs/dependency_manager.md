@@ -1,5 +1,7 @@
 ---
 title: 前端开发者应懂的n个概念-依赖管理
+categories:
+  - frontend
 ---
 
 # 前端开发者应懂的n个概念-依赖管理

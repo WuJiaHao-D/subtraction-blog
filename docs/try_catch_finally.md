@@ -1,5 +1,7 @@
 ---
 title: try-catch-finally机制中return的执行时机
+categories:
+  - frontend
 ---
 
 # try-catch-finally机制中return的执行时机

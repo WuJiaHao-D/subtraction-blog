@@ -1,5 +1,7 @@
 ---
 title: 浏览器工作原理
+categories:
+  - frontend
 ---
 
 # 浏览器工作原理

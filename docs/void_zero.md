@@ -1,5 +1,7 @@
 ---
 title: JavaScript 中 void 0 是什么
+categories:
+  - frontend
 ---
 
 # JavaScript 中 void 0 是什么
