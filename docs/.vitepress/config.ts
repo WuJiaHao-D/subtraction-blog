@@ -33,6 +33,7 @@ const frontendArticles = {
 }
 
 export default defineConfig({
+  base: '/subtraction-blog/',
   title: '减法博客',
   description: '前端技术博客 - 深入原理，精简概念',
 
