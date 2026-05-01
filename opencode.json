@@ -1,0 +1,176 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "bailian-coding-plan/glm-5",
+  "instructions": [],
+  "autoupdate": false,
+  "mcp": {
+    "mastergo": {
+      "type": "local",
+      "command": ["npx", "-y", "@mastergo/magic-mcp"],
+      "enabled": true,
+      "environment": {
+        "MG_MCP_TOKEN": "mg_a5448b08078e4986aa4a6c148d249bca",
+        "API_BASE_URL": "https://mastergo.com"
+      }
+    },
+    "pencil": {
+      "command": [
+        "/Applications/Pencil.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
+        "--app",
+        "desktop"
+      ],
+      "enabled": true,
+      "type": "local"
+    },
+    "chrome-devtools": {
+      "type": "local",
+      "command": ["npx", "-y", "chrome-devtools-mcp@latest"],
+      "enabled": true
+    }
+  },
+  "plugin": ["opencode-antigravity-auth@latest", "oh-my-opencode"],
+  "provider": {
+    "nvidia": {
+      "options": {
+        "apiKey": "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",
+        "baseURL": "https://integrate.api.nvidia.com/v1"
+      }
+    },
+    "bailian-coding-plan": {
+      "npm": "@ai-sdk/anthropic",
+      "name": "Model Studio Coding Plan",
+      "options": {
+        "baseURL": "http://aladdin-llm.ppdaicorp.com/v1",
+        "apiKey": "sk-5e15c99a81dfc4e934e3b42771e2589fb78078e21d5f1f0e99d6d13833162426"
+      },
+      "models": {
+        "qwen3.5-plus": {
+          "name": "Qwen3.5 Plus",
+          "modalities": {
+            "input": ["text", "image"],
+            "output": ["text"]
+          },
+          "options": {
+            "thinking": {
+              "type": "enabled",
+              "budgetTokens": 1024
+            }
+          }
+        },
+        "qwen3.6-plus": {
+          "name": "Qwen3.6 Plus",
+          "modalities": {
+            "input": ["text", "image"],
+            "output": ["text"]
+          },
+          "options": {
+            "thinking": {
+              "type": "enabled",
+              "budgetTokens": 1024
+            }
+          }
+        },
+        "qwen3-max-2026-01-23": {
+          "name": "Qwen3 Max 2026-01-23"
+        },
+        "qwen3-coder-next": {
+          "name": "Qwen3 Coder Next"
+        },
+        "qwen3-coder-plus": {
+          "name": "Qwen3 Coder Plus"
+        },
+        "MiniMax-M2.5": {
+          "name": "MiniMax M2.5",
+          "options": {
+            "thinking": {
+              "type": "enabled",
+              "budgetTokens": 1024
+            }
+          }
+        },
+        "MiniMax-M2.7": {
+          "name": "MiniMax M2.7",
+          "options": {
+            "thinking": {
+              "type": "enabled",
+              "budgetTokens": 1024
+            }
+          }
+        },
+        "glm-5": {
+          "name": "GLM-5",
+          "options": {
+            "thinking": {
+              "type": "enabled",
+              "budgetTokens": 1024
+            }
+          }
+        },
+        "glm-4.7": {
+          "name": "GLM-4.7",
+          "options": {
+            "thinking": {
+              "type": "enabled",
+              "budgetTokens": 1024
+            }
+          }
+        },
+        "kimi-k2.5": {
+          "name": "Kimi K2.5",
+          "modalities": {
+            "input": ["text", "image"],
+            "output": ["text"]
+          },
+          "options": {
+            "thinking": {
+              "type": "enabled",
+              "budgetTokens": 1024
+            }
+          }
+        }
+      }
+    },
+    "openai": {
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "apiKey": "SA-4i5EuQrARdHAFTjh",
+        "baseURL": "https://apiv2.heat-death-blog.online/v1"
+      },
+      "models": {
+        "gpt-5.2": {
+          "modalities": {
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          },
+          "name": "gpt-5.2",
+          "limit": {
+            "context": 1000000,
+            "output": 65536
+          }
+        },
+        "gpt-5.3-codex": {
+          "modalities": {
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          },
+          "name": "gpt-5.3-codex",
+          "limit": {
+            "context": 1000000,
+            "output": 65536
+          }
+        },
+        "gpt-5.4": {
+          "modalities": {
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          },
+          "name": "gpt-5.4",
+          "limit": {
+            "context": 1000000,
+            "output": 65536
+          }
+        }
+      }
+    }
+  }
+}
