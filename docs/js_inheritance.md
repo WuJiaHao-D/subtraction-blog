@@ -1,5 +1,7 @@
 ---
 title: JavaScript的继承机制
+categories:
+  - frontend
 ---
 
 # JavaScript的继承机制

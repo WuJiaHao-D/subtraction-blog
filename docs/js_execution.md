@@ -1,5 +1,7 @@
 ---
 title: JavaScript执行机制
+categories:
+  - frontend
 ---
 
 # JavaScript执行机制

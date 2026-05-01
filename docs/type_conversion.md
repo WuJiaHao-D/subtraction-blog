@@ -1,5 +1,7 @@
 ---
 title: 数据类型与类型转换
+categories:
+  - frontend
 ---
 
 # 数据类型与类型转换

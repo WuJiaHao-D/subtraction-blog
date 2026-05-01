@@ -1,5 +1,7 @@
 ---
 title: JavaScript执行上下文
+categories:
+  - frontend
 ---
 
 # JavaScript执行上下文
