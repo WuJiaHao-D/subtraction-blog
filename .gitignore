@@ -24,3 +24,10 @@ dist-ssr
 *.sw?
 .opencode
 docs/.vitepress/*.timestamp-*.mjs
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

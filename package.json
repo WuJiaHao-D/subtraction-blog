@@ -5,12 +5,15 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "serve": "vitepress serve docs",
+    "deploy": "pnpm run build && wrangler deploy",
+    "preview": "pnpm run build && wrangler dev"
   },
   "devDependencies": {
     "sass-embedded": "^1.99.0",
     "vitepress": "1.6.4",
-    "vue": "3.5.32"
+    "vue": "3.5.32",
+    "wrangler": "^4.98.0"
   },
   "pnpm": {
     "peerDependencyRules": {
