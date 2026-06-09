@@ -1,10 +1,19 @@
 ---
 title: 前端
+pageClass: editorial-section
+sidebar: false
+aside: false
 ---
+
+<div class="home-hero">
+<p class="home-kicker">Column / Frontend</p>
 
 # 前端
 
-当前博客的现有文章已统一归入 **前端** 分类，后续会继续按方向扩展。
+<p class="home-description">
+从 JavaScript 执行机制、浏览器渲染、网络协议与 React 基础出发，逐步整理前端工程里最常见、也最容易混乱的底层问题。
+</p>
+</div>
 
 ## Start Here
 
