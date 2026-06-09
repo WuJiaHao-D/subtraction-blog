@@ -1,0 +1,79 @@
+{
+  "hash": "3a1c7934",
+  "configHash": "e638b3af",
+  "lockfileHash": "aa4e4e34",
+  "browserHash": "ceb46975",
+  "optimized": {
+    "vue": {
+      "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "72357766",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "7781078f",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../node_modules/@vueuse/core/dist/index.js",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "48c9b6c3",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../node_modules/@vueuse/integrations/dist/useFocusTrap.js",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "7467fb32",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "87086673",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "70e96b28",
+      "needsInterop": false
+    },
+    "@bprogress/core": {
+      "src": "../../../node_modules/@bprogress/core/dist/index.js",
+      "file": "@bprogress_core.js",
+      "fileHash": "487a631b",
+      "needsInterop": false
+    },
+    "@fancyapps/ui": {
+      "src": "../../../node_modules/@fancyapps/ui/dist/index.js",
+      "file": "@fancyapps_ui.js",
+      "fileHash": "ad3bbe7a",
+      "needsInterop": false
+    },
+    "@waline/client/component": {
+      "src": "../../../node_modules/@waline/client/dist/component.js",
+      "file": "@waline_client_component.js",
+      "fileHash": "e8700ade",
+      "needsInterop": false
+    },
+    "@iconify/vue": {
+      "src": "../../../node_modules/@iconify/vue/dist/iconify.mjs",
+      "file": "@iconify_vue.js",
+      "fileHash": "57663ddf",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-UQ5YJL7A": {
+      "file": "chunk-UQ5YJL7A.js"
+    },
+    "chunk-S437VZ3X": {
+      "file": "chunk-S437VZ3X.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
